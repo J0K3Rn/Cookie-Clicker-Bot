@@ -4,7 +4,6 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
-chrome_driver_path = "/Users/Joseph.Richardson@ibm.com/Documents/chromedriver/chromedriver"
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install())) #executable_path=chrome_driver_path)
 
 # Open up website
